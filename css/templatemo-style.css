@@ -247,8 +247,7 @@ bootstrap.min.css:5
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	margin-left:175px;
-}
+	}
 
 #about .service-item {
 	text-align: center;
