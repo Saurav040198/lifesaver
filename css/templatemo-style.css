@@ -37,7 +37,12 @@ p {
 	text-transform: uppercase;
 	text-decoration: none;
 	border-radius: 20px;
+	transition: 0.5s ease;
 }
+.primary-white-button a:hover{
+	transform:scale(1.2);
+}
+
 
 .primary-blue-button a {
 	display: inline-block;
@@ -102,8 +107,9 @@ p {
 	letter-spacing: 0.5px;
 }
 
+
 .navbar-nav>li {
-	margin-left: 45px;
+	margin-left: 35px;
 }
 
 .header.active .navbar-nav>li>a {
@@ -255,8 +261,6 @@ bootstrap.min.css:5
 	background-color: #FFDCDC;
 	padding: 20px;
 	border-radius: 20px;
-	
-	
 }
 
 #about .service-item .icon {
@@ -265,7 +269,12 @@ bootstrap.min.css:5
 	display: inline-grid;
 	text-align: center;
 	line-height:100px;
+	transition: 0.5s ease;
 
+}
+#about .service-item .icon:hover{
+	transform: scale(1.5);
+	cursor: pointer;
 }
 
 #about .service-item h4 {
